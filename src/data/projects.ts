@@ -15,6 +15,7 @@ import amboxLogisticsVideo from '../assets/Hero Videos/Ambox Logistics.mp4';
 import avalancheRefineriesVideo from '../assets/Hero Videos/Avalanche Refineries.mp4';
 import fomPuneVideo from '../assets/Hero Videos/fom pune.mp4';
 import ashianaHousingVideo from '../assets/Hero Videos/Ashiana Housing.mp4';
+import preWeddingMvVideo from '../assets/Hero Videos/Pre wedding MV.mp4';
 
 // Hero Covers from src/assets/Hero Covers (High-Performance WebP)
 import ashianaAmodhCover from '../assets/Hero Covers/Ashiana Amodh.webp';
@@ -31,6 +32,7 @@ import amboxLogisticsCover from '../assets/Hero Covers/ambox logictics.webp';
 import avalancheRefineriesCover from '../assets/Hero Covers/avalanche refineries.webp';
 import fomPuneCover from '../assets/Hero Covers/fom pune.webp';
 import ashianaHousingCover from '../assets/Hero Covers/ashiana housing.webp';
+import preWeddingMvCover from '../assets/Hero Covers/Pre wedding MV.webp';
 
 // Stills from src/assets/Stills (High-Performance WebP)
 import stillHome from '../assets/Stills/Home.webp';
@@ -487,6 +489,24 @@ export const PROJECTS: Project[] = [
       year: '2024',
       location: 'Production Studio'
     }
+  },
+  // 11. Pre Wedding MV
+  {
+    id: '11',
+    slug: 'pre-wedding-mv',
+    name: 'Pre Wedding MV',
+    client: 'Pre Wedding',
+    type: 'motion',
+    tag: 'commercial',
+    count: 1,
+    duration: 30,
+    image: preWeddingMvCover,
+    video: preWeddingMvVideo,
+    gallery: [preWeddingMvCover],
+    alt: 'Pre Wedding MV commercial film',
+    description: 'Pre wedding motion video showcasing the couple and their environment.',
+    shortDescription: 'Pre wedding MV : Odd Mango Films',
+    meta: { camera: 'N/A', lens: 'N/A', aperture: 'N/A', shutter: 'N/A', iso: 'N/A', year: '2024', location: 'N/A' }
   }
 ];
 
